@@ -1,0 +1,9 @@
+{
+    "name": "opaque-demo",
+    "description": "Demo of opaque, an implementation of the OPAQUE asymmetric PAKE protocol",
+    "dependencies": {
+        "express": "4.17.1",
+        "express-rate-limit": "5.2.5",
+        "mongoose": "^6.5.2"
+    }
+}

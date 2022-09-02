@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Opaque</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title">
+          <h3>Login Using OPAQUE Protocol</h3>
+      </div>
+    <form action="#">
+      <div class="field">
+        <input type="text" name="id" required />
+      <label for="id">Username</label>
+    </div>
+    <div class="field">
+      <input type="password" name="pw" required />
+      <label for="pw">Password</label>
+    </div>
+    <div class="field">
+      <button type="submit" name="register">Register</button>
+      <button type="submit" name="login">Login</button>
+    </div>
+      <br />
+      <input type="radio" name="register-type" value="with-password" />
+      <label for="with-password"
+        >Register by sending your password to the server.</label
+      ><br />
+      <input
+        type="radio"
+        name="register-type"
+        value="without-password"
+        checked
+      />
+      <label for="with-password"
+      >Register without sending your password to the server.</label>
+    </form>
+    <pre style='color: green; padding-left: 10px; margin-bottom: 20px;'></pre>
+  </div>
+  <script async src="index.js"></script>
+  </body>
+</html>
